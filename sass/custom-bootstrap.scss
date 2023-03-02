@@ -1,0 +1,44 @@
+$primary: #111;
+$secondary: #F5F5F5;
+$input-placeholder-color: #c0c0c0;
+$danger: rgb(180, 0, 0);
+
+//accordion
+$accordion-button-active-bg: white;
+$accordion-button-active-color: black;
+$accordion-button-focus-border-color: none;
+$accordion-button-focus-box-shadow: none;
+$accordion-icon-active-color: black;
+
+$accordion-button-padding-x: 0;
+$accordion-button-padding-y: 1.25em;
+
+$accordion-body-padding-y:  4px;
+$accordion-body-padding-x: 0.30em;
+
+$list-group-hover-bg: none;
+$list-group-bg: none;
+$list-group-border-color: none;
+$list-group-action-hover-color: white;
+// $list-group-item-color-scale: 80%;
+$list-group-color: rgba(255, 255, 255, 0.5);
+$list-group-item-padding-y: 0.5em;
+$list-group-item-padding-x: 0.1em;
+
+$btn-close-color: white;
+
+@import '../bootstrap-5.3.0-alpha1/scss/bootstrap.scss';
+
+// VARIAVEIS VEM DEPOIS DO IMPORT
+.btn-outline-primary
+{
+    --bs-btn-border-color: #c0c0c0;
+    --bs-btn-border-radius: 4px;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-color: black;
+}
+
+.btn-primary
+{
+    --bs-btn-hover-bg: rgba(0, 0, 0, 0.50);
+}
